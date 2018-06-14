@@ -1,3 +1,4 @@
+#pip install quandl
 import quandl
 import datetime
 import numpy as np
@@ -6,7 +7,7 @@ from johansen_test import coint_johansen
 
 
  
-quandl.ApiConfig.api_key = 'iMjgDUbUjVyCLx4iDLk5'
+quandl.ApiConfig.api_key = 'YourQuandlAPI'
 
 
 def quandl_stocks(symbols, idx, start_date, end_date):

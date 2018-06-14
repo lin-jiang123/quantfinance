@@ -1,4 +1,3 @@
-#pip install quandl
 import quandl
 import datetime
 import numpy as np
@@ -10,7 +9,7 @@ import matplotlib.pyplot as plt
 import math
 
  
-quandl.ApiConfig.api_key = 'YourQuandlAPI'
+quandl.ApiConfig.api_key = 'iMjgDUbUjVyCLx4iDLk5'
 
 
 def quandl_stocks(symbols, idx, start_date, end_date):
